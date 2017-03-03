@@ -69,8 +69,8 @@ AC_SUBST(GTK_SHARP_LIBS)
 
 DBUS_SHARP_REQ_VERSION=0.7
 DBUS_SHARP_GLIB_REQ_VERSION=0.5
-PKG_CHECK_MODULES(DBUS_SHARP, dbus-sharp-1.0 >= $DBUS_SHARP_REQ_VERSION \
-                              dbus-sharp-glib-1.0 >= $DBUS_SHARP_GLIB_REQ_VERSION)
+PKG_CHECK_MODULES(DBUS_SHARP, dbus-sharp-2.0 >= $DBUS_SHARP_REQ_VERSION \
+                              dbus-sharp-glib-2.0 >= $DBUS_SHARP_GLIB_REQ_VERSION)
 AC_SUBST(DBUS_SHARP_LIBS)
 
 required_assemblies="Mono.Posix"
